@@ -1,5 +1,11 @@
 # Pair Program! The Bruce Campbell Way
 
+## Some modifications to be used by Cospired
+For using it at cospired we tried to keep custom config to a minimum,
+just configure some sane defaults here. ie tmux key is C-a, Vim has almost no
+plugins, and only a very small amount of custom mappings.
+
+# Docs
 This is a small set of tools designed to provide a baseline environment
 for doing remote pair programming via SSH.  The toolkit consists of:
 
@@ -24,18 +30,18 @@ When you're using tmux, it passes your keystrokes through to the
 programs it's managing for you.  In order to send commands to tmux, you
 first have to get its attention by sending it the PREFIX key.  By
 default, tmux uses Control-b as its PREFIX key, but the tmux.conf file
-included in this repository changes it to Control-\ (that's
-control-backslash).
+included in this repository changes it to Control-a (that's
+control-a) which was the default in screen so most people are used to it.
 
 This can be confusing to first-time users, so just to be clear, here's
 what you do:
 
 1. Hold down the Control key.
-2. Press the \ or backslash key.
+2. Press the a key.
 3. Release the Control key.
 4. Press the 'c' key.  (This should create a new window.)
 
-Most tmux references will use the notation C-\ for Control-backslash.
+Most tmux references will use the notation C-a for Control-a.
 This document borrows the notation (( PREFIX x )) to represent the sequence
 "PREFIX combo, followed by x" from Brian Hogan's book about tmux:
 http://pragprog.com/book/bhtmux/tmux
