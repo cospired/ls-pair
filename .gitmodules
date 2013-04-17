@@ -1,6 +1,6 @@
-[submodule "home/.vim/bundle/web-indent"]
-	path = vimconfig/vim/bundle/web-indent
-	url = git://github.com/lukaszb/vim-web-indent.git
-[submodule "home/.vim/bundle/zenburn"]
+[submodule "vimconfig/vim/bundle/zenburn"]
 	path = vimconfig/vim/bundle/zenburn
 	url = https://github.com/jnurmine/Zenburn.git
+[submodule "vimconfig/vim/bundle/web-indent"]
+	path = vimconfig/vim/bundle/web-indent
+	url = git://github.com/lukaszb/vim-web-indent.git
